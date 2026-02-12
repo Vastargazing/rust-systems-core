@@ -178,7 +178,7 @@ On x86 processors, there is a **Strong Memory Model** — writes reach other cor
 
 ---
 
-### Topic 4: Virtual Memory — The Great OS Illusion
+### Topic 3: Virtual Memory — The Great OS Illusion
 
 Programs in the modern world live in "The Matrix." No process (whether it's a Rust binary or a browser) knows where its data actually resides. They are granted **Virtual Memory** — an ideal, contiguous, and empty space.
 
@@ -246,7 +246,7 @@ Every time a Rust program runs, the addresses of functions and the stack will be
 
 ---
 
-### Topic 5: Memory Physics (Stack, Heap, and Statics)
+### Topic 4: Memory Physics (Stack, Heap, and Statics)
 
 Memory is not just an abstract storage space. It is a hierarchy of speeds and trade-offs. Understanding where your bytes reside is what distinguishes fast code from lagging code.
 
