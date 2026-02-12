@@ -1,5 +1,9 @@
 # 🦀 Rust: Systems Engineering Core
 
+[![English Version](https://img.shields.io/badge/Language-English-orange?style=for-the-badge&logo=github)](https://github.com/Vastargazing/rust-systems-core/blob/main/rust_systems_core_eng.md)
+
+> Foundation of systems programming, memory architecture, and concurrency.
+
 ## 📚 Содержание
 
 1. **Абстрактные модели и Железо** — *Машины Тьюринга, Фон Нейман и Гарвард. Почему Rust безопаснее на уровне архитектуры.*
