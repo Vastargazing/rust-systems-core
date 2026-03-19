@@ -18,6 +18,9 @@ We are not just learning history. These three models determine the physical perf
 
 #### 1. The Turing Machine
 
+<img width="1245" height="724" alt="image" src="https://github.com/user-attachments/assets/64a80668-2e28-40f3-9201-27b53bb3d3b6" />
+
+
 This is the **theoretical limit** of computability.
 
 * **Essence**: An infinite memory tape + a head (read/write) + a rule table.
@@ -25,6 +28,9 @@ This is the **theoretical limit** of computability.
 * **Turing Completeness**: Any programming language (including Rust's type system!) is "Turing complete" if it can simulate this machine. This means that, at the logical level, Rust is as powerful as C++ or Python.
 
 #### 2. Von Neumann Architecture
+
+<img width="767" height="505" alt="image" src="https://github.com/user-attachments/assets/60fb87a1-a549-45c3-a049-2892159469d6" />
+
 
 The de facto standard for **RAM** in all modern PCs and servers.
 
@@ -41,6 +47,9 @@ The de facto standard for **RAM** in all modern PCs and servers.
 
 
 #### 3. Harvard Architecture
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/2e3a1634-7f33-446a-abda-400665810afb" />
+
 
 Separation of flows for speed and protection.
 
@@ -69,6 +78,9 @@ Languages with JIT (Java, JS in browsers, Python PyPy) are forced to constantly 
 ---
 
 ### 🦀 Why is this important for Rust?
+
+<img width="1000" height="750" alt="image" src="https://github.com/user-attachments/assets/6bb6e03c-5920-4253-ab0e-c9fcbb49c666" />
+
 
 Rust is a language that **knows** about these architectural issues:
 
